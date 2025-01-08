@@ -1,6 +1,6 @@
 import { Snowflake } from './snowflake.js';
 import { AvalancheConfig } from './avalancheConfig.js';
-import Avalanche from './avalanche.js';
+import { Avalanche } from './avalanche.js';
 
 /**
  * Converts the provided `snowflakeId` to a `Snowflake` instance using the specified `configuration`.
