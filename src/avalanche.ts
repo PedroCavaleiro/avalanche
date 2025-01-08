@@ -26,7 +26,7 @@ export class Avalanche {
    * @param {any} config - The new configuration to set.
    * @private
    */
-  private static set configuration(config: any) {
+  private static set configuration(config: AvalancheConfig) {
     this._configuration = config;
   }
 
@@ -35,7 +35,7 @@ export class Avalanche {
    *
    * @param {any} config - The configuration to set.
    */
-  static configure(config: any): void {
+  static configure(config: AvalancheConfig): void {
     this.configuration = config;
   }
 
