@@ -1,0 +1,26 @@
+{
+  "name": "avalanche",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/PedroCavaleiro/avalanche/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["snowflake", "snowflake id", "id"],
+  "homepage": "https://github.com/PedroCavaleiro/avalanche#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroCavaleiro/avalanche.git"
+  },
+  "author": "Pedro Cavaleiro (https://github.com/PedroCavaleiro)",
+  "license": "MIT",
+  "description": "A simple snowflake id generator",
+  "files": ["dist"],
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  }
+}
