@@ -18,7 +18,6 @@ test('Generator: Valid Snowflake ID', () => {
   expect(Avalanche.generateSnowflake(date)).toBe(snowflake);
 });
 
-
 test('Snowflake ID: Parse Timestamp', () => {
   expect(toSnowflakeCustom('62937765418893312', config).timestamp).toBe(
     timestamp,
@@ -26,14 +25,12 @@ test('Snowflake ID: Parse Timestamp', () => {
 });
 
 test('Snowflake ID: Parse Timestamp (Global Configuration)', () => {
-  expect(toSnowflake('62937765418893312').timestamp).toBe(
-    timestamp,
-  );
+  expect(toSnowflake('62937765418893312').timestamp).toBe(timestamp);
 });
 
 test('Snowflake ID: Parse Time', () => {
   expect(toSnowflakeCustom('62937765418893312', config).time.getTime()).toBe(
-    new Date(dateString).getTime()
+    new Date(dateString).getTime(),
   );
 });
 

@@ -39,8 +39,8 @@ You can go further and specify the epoch, worker ID.
 import { Avalanche } from '@pedrocavaleiro/avalanche';
 
 const config = {
-    epoch: 1577836800000, // 2020-01-01T00:00:00.000Z
-    workerId: 1
+  epoch: 1577836800000, // 2020-01-01T00:00:00.000Z
+  workerId: 1,
 };
 
 Avalanche.configure(config);
