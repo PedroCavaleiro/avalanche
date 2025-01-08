@@ -1,9 +1,7 @@
-import {
-  AvalancheConfig,
-  Avalanche,
-  toSnowflake,
-  toSnowflakeCustom,
-} from './avalanche.js';
+import { Avalanche } from './avalanche.js';
+import { AvalancheConfig } from './avalancheConfig.js';
+import { toSnowflakeCustom, toSnowflake } from './parsers.js';
+
 import { test, expect } from 'vitest';
 
 const snowflake = BigInt('62937765418893312');
