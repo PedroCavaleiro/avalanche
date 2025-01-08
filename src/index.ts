@@ -1,6 +1,3 @@
-import {
-  AvalancheConfig,
-  Avalanche,
-  toSnowflake,
-  toSnowflakeCustom,
-} from './avalanche.js';
+export { Avalanche } from './avalanche.js';
+export { AvalancheConfig } from './avalancheConfig.js';
+export { toSnowflake, toSnowflakeCustom } from './parsers.js';
