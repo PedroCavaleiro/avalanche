@@ -13,7 +13,7 @@ export class AvalancheConfig {
    * @param {bigint} [epoch=BigInt(1275350400000)] - The epoch timestamp in milliseconds. Defaults to 1275350400000.
    * @param {number} [workedId=1] - The worker ID. Defaults to 1.
    */
-  constructor(epoch: bigint = BigInt(1275350400000), workedId: number = 1) {
+  constructor(epoch: bigint = BigInt('1275350400000'), workedId: number = 1) {
     this.workedId = workedId;
     this.epoch = epoch;
   }
