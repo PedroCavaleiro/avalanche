@@ -14,7 +14,8 @@
     "check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
     "test": "vitest run",
     "local-release": "changeset version && changeset publish",
-    "prepublishOnly": "npm run ci"
+    "prepublishOnly": "npm run ci",
+    "lint": "tsc"
   },
   "keywords": [
     "snowflake",
