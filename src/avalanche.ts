@@ -1,7 +1,7 @@
 import { AvalancheConfig } from './avalancheConfig.js';
 import { generateTimestamp, waitUntilNextTimestamp } from './helpers.js';
 
-export default class Avalanche {
+export class Avalanche {
   private static _configuration: AvalancheConfig;
 
   public static readonly shiftTime: number = 10 + 12;
