@@ -1,4 +1,6 @@
 # Avalanche
+[![Tests](https://github.com/PedroCavaleiro/avalanche/actions/workflows/testing.yml/badge.svg?branch=main)](https://github.com/PedroCavaleiro/avalanche/actions/workflows/testing.yml)
+[![CI and Publish](https://github.com/PedroCavaleiro/avalanche/actions/workflows/npm-publish.yml/badge.svg?branch=main)](https://github.com/PedroCavaleiro/avalanche/actions/workflows/npm-publish.yml)
 
 A Simple TypeScript Snowflake ID library
 
