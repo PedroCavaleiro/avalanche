@@ -1,5 +1,7 @@
 # Avalanche
 
+[![CI and Publish](https://github.com/PedroCavaleiro/avalanche/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/PedroCavaleiro/avalanche/actions/workflows/npm-publish.yml)
+
 A Simple TypeScript Snowflake ID library
 
 This will allow you to generate unique IDs for your application but also parse the details back.
