@@ -42,7 +42,7 @@ jobs:
       - run: npm ci
       - run: npm publish --registry=https://registry.npmjs.org/
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.npm_token }}
+          NPM_TOKEN: ${{ secrets.npm_token }}
 
   publish-gpr:
     needs: ci
@@ -59,4 +59,4 @@ jobs:
       - run: npm ci
       - run: npm publish ----registry=https://npm.pkg.github.com/
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
