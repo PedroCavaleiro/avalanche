@@ -73,3 +73,4 @@ let snowflake = toSnowflakeCustom('62937765418893312', myConfig);
 ## Related projects
 
 - [SwiftySnowflake](https://github.com/PedroCavaleiro/SwiftySnowflake) - A Swift Snowflake ID library
+- [Sharpflake](https://github.com/PedroCavaleiro/Sharpflake) - A Simple C# Snowflake ID library
