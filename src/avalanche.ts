@@ -7,7 +7,8 @@ export class Avalanche {
   public static readonly shiftTime: number = 10 + 12;
   public static readonly shiftGenerator: number = 10;
 
-  private static maxSequence: number = (1 << AvalancheConfig.machineSequenceBits) - 1;
+  private static maxSequence: number =
+    (1 << AvalancheConfig.machineSequenceBits) - 1;
   private static lastTimestamp: bigint | undefined = undefined;
   private static sequence: bigint = BigInt(0);
 
