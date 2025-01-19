@@ -1,4 +1,5 @@
 # Avalanche
+
 [![Build](https://github.com/PedroCavaleiro/avalanche/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/PedroCavaleiro/avalanche/actions/workflows/build.yml)
 [![Tests](https://github.com/PedroCavaleiro/avalanche/actions/workflows/testing.yml/badge.svg?branch=main)](https://github.com/PedroCavaleiro/avalanche/actions/workflows/testing.yml)
 [![CI](https://github.com/PedroCavaleiro/avalanche/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/PedroCavaleiro/avalanche/actions/workflows/ci.yml)
